@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Tasarımı-Dilara Seren</title>
+
+    <script src="https://kit.fontawesome.com/f7e99d01f9.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="main-title ani-fade-up">WEB TASARIMI</h1>
+                <p class="main-slogan ani-delay ani-fade-up">TEKNOLOJİ FAKÜLTESİ BİLGİSAYAR MÜHENDİSLİĞİ </p>
+                <div class="arrows ani-delay-2 ani-fade-up">
+                    <a href="#about">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <nav class="nav">
+            <div class="container navbar">
+           
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#hero" class="nav-link">ANASAYFA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">HAKKIMDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skill" class="nav-link">YETENEKLERİM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">İLETİŞİM</a>
+                    </li>
+                </ul>
+
+                <div class="navbar-toggler">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                </div>
+
+
+
+            </div>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-content sec-grid">
+                <div class="about-info">
+                    <div class="about-detail ani-delay ani-left">
+                        <h2 class="horizontal-title">Dilara SEREN</h2>
+                        <p> Düzce Üniversitesi |  Bilgisayar Mühendisliği<br>
+                            2. sınıf | 192113022 <br />
+                            Web Programlama ile ilgileniyorum ve  çeşitli projelerime <br> github adresimden
+                            ulaşabilirsiniz.</p>
+                            <button 
+                            class="btn-general btn-light"
+                            onclick="window.location.href ='https://github.com/dilaraseren';">Github</button>
+                    </div>
+                </div>
+                <div class="about-image ani-fade-up">
+                    <img src="./img/77552274.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill" class="pri-background">
+        <div class="container">
+            <div class="skill-content sec-grid">
+                <div class="skill-image ani-fade-up">
+                    <img src="./img/pexels-negative-space-160107.jpg">
+                </div>
+                <div class="skill-info">
+                    <h2 class="vertical-title vertical-title-right ani-delay-2 ani-left">YETENEKLERİM</h2>
+                    <div class="skill-detail ani-delay ani-right">
+                        <div id="skill-slider">
+                            <div class="skill-slide">
+                                <h2 class="horizontal-title light-color">Kullandığım Teknolojiler</h2>
+                                <p>
+                                    HTML5 <br>
+                                    CSS3 <br>
+                                    Bootstrap <br>
+                                    C# <br>
+                                    Java <br>
+                                    .NET <br>
+                                    ASP.NET <br>
+                                    ASP.NET MVC <br>
+
+                                </p>
+                            </div>
+                            <div class="skill-slide">
+                                <h2 class="horizontal-title light-color">Kullandığım Veritabanları</h2>
+                                <p> Microsoft SQL Server <br>
+                                    MySQL <br>
+                                    PostgreSQL <br></p>
+                            </div>
+                        </div>
+                        <div class="btn-arrows">
+                            <div id="arrow-left" class="btn-general btn-dark">&#60;</div>
+                            <div id="arrow-right" class="btn-general btn-dark">&#62;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BLOG Section -->
+
+    <section id="blog" class="pri-background">
+        <div class="container">
+            <div class="blog-content sec-grid">
+                <div class="latest-posts">
+                    <div class="blog-post  ani-fade-up">
+                        <h4>Microsoft SQL Server nedir?</h4>
+                        <p>MSSQL (Microsoft SQL Server), herhangi bir web sitesi veya yazılımın içerisinde kullanılan verilerin içerisinde sakladığında bir veritabanı sistemidir.Windows tabanlı sunucular ve programlama dillerinde MSSQL en çok kullanılan veri tabanı tipidir</p>
+                        <a href="#">Daha Fazla>></a>
+                        <div class="post-meta">
+                            <img src="./img/5caeeca914578.png">
+                            <div class="divider">&#124;</div>
+                            <p class="author">Dilara Seren</p>
+                            <div class="divider">&#124;</div>
+                            <p class="date">20 Mayıs 2021</p>
+                        </div>
+                    </div>
+                    <div class="blog-post ani-delay ani-fade-up">
+                        <h4>Bootstrap nedir?</h4>
+                        <p>Bootstrap, Twitter tarafından geliştirilen bir CSS Framework'üdür. Bootstrap ile bilgisayar, telefon ve tablet gibi farklı boyutlardaki cihazlara göre boyutlarını ayarlayabilen bir web tasarım aracıdır.</p>
+                        <a href="#">Daha Fazla>></a>
+                        <div class="post-meta">
+                            <img src="./img/bootstrap-nedir_large.jpg">
+                            <div class="divider">&#124;</div>
+                            <p class="author">Dilara Seren</p>
+                            <div class="divider">&#124;</div>
+                            <p class="date">20 Mayıs 2021</p>
+                        </div>
+                    </div>
+                    <div class="blog-post ani-delay ani-fade-up">
+                        <h4>Java nedir?</h4>
+                        <p>Java, Sun Microsystems tarafından üretilen ve yazılım uygulamaları geliştirmeye yardımcı yazılımlar bütünüdür. Java'nın kullanım alanı gömülü aygıtlardan cep telefonlarına, kurumsal sunuculardan süper bilgisayarlara uzanmaktadır.</p>
+                        <a href="#">Daha Fazla>></a>
+                        <div class="post-meta">
+                            <img src="./img/index.png">
+                            <div class="divider">&#124;</div>
+                            <p class="author">Dilara Seren</p>
+                            <div class="divider">&#124;</div>
+                            <p class="date">20 Mayıs 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-info">
+                 
+                    <div class="blog-detail ani-delay ani-right">
+                        <h2 class="horizontal-title light-color">BLOG</h2>
+                        <p> << Kullandığım Teknolojilerden ve Veritabanları hakkında bilgi edinmek için </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END BLOG Section -->
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact-content ani-bottom">
+                <h2>BENİMLE İLETİŞİME GEÇİN</h2>
+                <form>
+                    <input type="text" class="name" placeholder="Adınız">
+                    <input type="email" class="email" placeholder="E-posta">
+                    <textarea class="message" placeholder="Mesajınız"></textarea>
+                    <button class="btn btn-general btn-light" style="color: blanchedalmond;">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-media">
+                    <h4>TAKİP EDİN</h4>
+                    <ul class="social-list">
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://www.github.com/dilaraseren"><i class="fab fa-github-alt"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="back-top">
+                    <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+ 
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+   
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
